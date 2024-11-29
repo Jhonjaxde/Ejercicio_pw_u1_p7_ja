@@ -1,0 +1,30 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body{
+    background: #99bcd4;
+}
+
+p:before{
+    content: attr(type);
+    display: block;
+    margin: 3px;
+    font-size: 17px;
+    color: #5a5a5a;
+}
+
+input{
+    width: 280px;
+    border: none;
+    border-bottom: 2px   solid #bebed2;
+    background:none;
+}
+
+input:focus{
+    outline: none;
+    border-bottom: 2px   solid #b1b1c5;
+}
+
